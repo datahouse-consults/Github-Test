@@ -9,7 +9,7 @@ library(pbkrtest) #new Methods for Tests in Linear Mixed Models
 library(Metrics) #implements metrics for regression or information retrieval
 install.packages("hmer")
 library(hmer)
-(options(timeout = 600))
+(options(timeout = 600)) # increasing package installation timeout 
 
 # Generating objects to store the results
 
