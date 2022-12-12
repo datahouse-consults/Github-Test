@@ -1,13 +1,13 @@
-## Author : Nicholas Siame Adam  					########
+## Author : Nicholas Siame Adam  					          ########
 ## Code name: Data simulation for MSc Biostatistics ########
-## Last update date: 11.11.2021 					########
+## Last update date: 11.11.2021 			          		########
 ############################################################
 
 library(rms) #regression modeling strategies(works in missing data, non-linear transformations)
 library(lmerTest) #new modeling in leaner mixed models (fits with lme4) with p-values
 library(pbkrtest) #new Methods for Tests in Linear Mixed Models
 library(Metrics) #implements metrics for regression or information retrieval
-install.packages("hmer")
+install.packages("hmer") 
 library(hmer)
 (options(timeout = 600)) # increasing package installation timeout 
 
@@ -39,6 +39,7 @@ IOR_80R.OVERLAP<-c()
 SSIZE<-c()
 
 #beginning of simulations
+# note the opening curly bracket
 
 {
   #prompting user to enter values
